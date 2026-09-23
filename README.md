@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./A5DC5531-E0F7-49F7-A04C-D530085D2300.png" alt="BizNova — Smarter Operations. Brighter Business." width="100%">
+</p>
+
 # BizNova
 
 ### AI-Assisted Commerce & Operations Platform
