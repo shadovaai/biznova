@@ -1,10 +1,20 @@
-# BizNova — AI-Assisted Commerce & Operations Platform
+# BizNova
 
-BizNova is a business operations platform focused on products, inventory, publishing, and AI-assisted management.
+### AI-Assisted Commerce & Operations Platform
 
-## Why it exists
+**Portfolio status:** Public case study · Production implementation remains private
 
-Small operators can lose time moving between product data, inventory, suppliers, publishing tools, and manual checks. BizNova is designed to centralize that operational visibility and reduce repetitive work.
+BizNova is a business operations platform focused on products, inventory, publishing, operational visibility and AI-assisted management.
+
+## Business problem
+
+Small operators can lose time moving between product data, inventory, supplier information, publishing tools and manual checks. Important issues can be missed when information is split across disconnected workflows.
+
+BizNova is designed to centralize operational visibility and reduce repetitive work.
+
+## My role
+
+I developed the operating concept around a staged automation model that verifies real system state before repair or automation is allowed.
 
 ## Selected capabilities
 
@@ -15,48 +25,36 @@ Small operators can lose time moving between product data, inventory, suppliers,
 - Business dashboard concepts
 - Database-backed verification
 - AI-assisted reporting and issue detection
-- Structured automation workflows
+- Structured repair and automation workflows
 
 ## Operating model
 
-```
-Data sources
-    ↓
-Read + validate
-    ↓
-Operational audit
-    ↓
-Report / alert
-    ↓
-Approved repair
-    ↓
-Automation
+```mermaid
+flowchart LR
+    A[Data sources] --> B[Read & validate]
+    B --> C[Operational audit]
+    C --> D[Report / alert]
+    D --> E[Approved repair]
+    E --> F[Automation]
 ```
 
-## Engineering focus
+## Engineering principles
 
 - Verify actions against real database state
 - Prefer auditable changes over opaque automation
-- Separate monitoring from repair permissions
+- Separate monitoring permissions from repair permissions
 - Build reusable operational controls
 - Keep sensitive production data isolated
+- Move from observation to automation gradually
 
 ## Technical focus
 
-- AI-assisted business operations
-- Database-backed applications
-- Workflow automation
-- Product and inventory systems
-- Publishing workflows
-- Cloud deployment
-- GitHub-based delivery
-- Operational dashboards
+AI-assisted operations · databases · workflow automation · product/inventory systems · publishing workflows · cloud deployment · GitHub delivery · operational dashboards
 
-## Portfolio scope
+## Public portfolio boundary
 
-This public repository is a sanitized portfolio case study. It excludes production credentials, business data, private integrations, proprietary prompts, and internal infrastructure.
+This repository excludes production credentials, business data, private integrations, proprietary prompts and internal infrastructure.
 
 ---
 
-**Shadova AI**  
-Building AI-powered business systems, automation, cloud applications, and digital products.
+**Shadova AI** — AI-powered business systems, automation, cloud applications and digital products.
