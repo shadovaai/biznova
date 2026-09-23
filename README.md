@@ -61,6 +61,10 @@ flowchart LR
 
 AI-assisted operations · databases · workflow automation · product/inventory systems · publishing workflows · cloud deployment · GitHub delivery · operational dashboards
 
+## Commercial model
+
+BizNova is designed to support an implementation model with a **one-time initial setup fee** followed by an ongoing platform/support arrangement. The setup fee is quoted according to implementation scope, integrations, workflows, and launch requirements rather than presented as a fixed public amount.
+
 ## Public portfolio boundary
 
 This repository excludes production credentials, business data, private integrations, proprietary prompts and internal infrastructure.
