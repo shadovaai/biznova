@@ -12,6 +12,10 @@
 
 BizNova is a business operations platform focused on products, inventory, publishing, operational visibility and AI-assisted management.
 
+## Interactive demo
+
+A safe, self-contained portfolio demo is included in [`demo/index.html`](./demo/index.html). It demonstrates the storefront, product discovery, operational dashboard, and Nova AI workflow concepts using fictional sample data.
+
 ## Business problem
 
 Small operators can lose time moving between product data, inventory, supplier information, publishing tools and manual checks. Important issues can be missed when information is split across disconnected workflows.
